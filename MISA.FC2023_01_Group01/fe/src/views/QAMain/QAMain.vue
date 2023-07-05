@@ -50,7 +50,7 @@ export default {
   },
   async created() {
     // this.getQuestions();
-    this.questions = await this.getQuestions();
+    await this.getQuestions();
   },
   data() {
     return {
@@ -65,10 +65,10 @@ export default {
      */
     async getQuestions() {
       try {
-        const res = questionService.get();
+        const res = await questionService.get();
 
         if (res.success) {
-          this.questions = res.data.Data;
+          this.questions = res.data;
         } else {
           this.$store.commit("addToast", {
             type: "error",

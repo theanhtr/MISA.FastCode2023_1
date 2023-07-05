@@ -1,0 +1,40 @@
+.Qa-form-wrap {
+  background-color: #fff;
+  padding: 16px;
+}
+.Qa-title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.name-author p {
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.name-author {
+  margin-bottom: 8px;
+}
+.Qa-header {
+  margin-bottom: 16px;
+}
+.Qa-main {
+  padding-top: 8px;
+  border-top: 1px rgb(165, 165, 165) dotted;
+}
+.name-author-answer {
+  margin-bottom: 8px;
+}
+.answer-main {
+  margin-bottom: 8px;
+}
+.Qa-action {
+  display: flex;
+  column-gap: 8px;
+  justify-content: flex-end;
+}
+.error-mess {
+  color: #ff0000;
+  margin-top: 8px;
+}

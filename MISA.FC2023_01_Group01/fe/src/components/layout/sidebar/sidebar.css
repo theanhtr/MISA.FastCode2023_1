@@ -13,10 +13,11 @@
   column-gap: 10px;
   display: flex;
   align-items: center;
+  background-color: white;
 }
 
 .sidebar__logo-container .toggle-icon {
-  background: url("../../../assets/img/Sprites.64af8f61.svg") no-repeat -428px -92px;
+  background: url("../../../assets/img/Sprites.64af8f61.svg") no-repeat -1157px -32px;
   width: 16px;
   height: 16px;
   cursor: pointer;
@@ -25,9 +26,9 @@
 .sidebar__logo-container .logo {
   flex: 1;
   height: 32px;
-  background-size: auto 32px;
-  background-image: url(../../../assets/img/Logo_Module_TiengViet_White.66947422.svg);
+  background-image: url("../../../assets/img/Logo.jpg");
   background-repeat: no-repeat;
+  background-size: contain;
   cursor: pointer;
 }
 
@@ -36,6 +37,7 @@
   height: calc(100% - 48px);
   display: flex;
   flex-direction: column;
+  padding: 16px 8px;
 }
 
 .sidebar__menu-item-container {
@@ -45,6 +47,7 @@
   flex-direction: column;
   row-gap: 4px;
   overflow-y: auto;
+  border-radius: 4px;
 }
 
 .menu-item {
@@ -57,6 +60,7 @@
   color: white;
   cursor: pointer;
   position: relative;
+  border-radius: 4px;
 }
 
 .menu-item:hover {

@@ -21,7 +21,7 @@
 
       <router-link
         class="logo"
-        to="/dashboard"
+        to="/qa"
         title="Tổng quan"
         v-if="$store.state.isExpandSidebar"
       ></router-link>
@@ -30,14 +30,34 @@
     <div class="sidebar__nav">
       <div class="sidebar__menu-item-container">
         <router-link
-          to="/dashboard"
+          to="/qa"
           class="menu-item"
           exact
           activeClass="menu-item--selected"
           title="Tổng quan"
         >
           <misa-icon icon="sidebar__overview" />
-          <div class="sidebar__text">Tổng quan</div>
+          <div class="sidebar__text">Thảo luận/Hỏi đáp</div>
+        </router-link>
+        <router-link
+          to="/report"
+          class="menu-item"
+          exact
+          activeClass="menu-item--selected"
+          title="Tổng quan"
+        >
+          <misa-icon icon="sidebar__overview" />
+          <div class="sidebar__text">Báo cáo</div>
+        </router-link>
+        <router-link
+          to="/setting"
+          class="menu-item"
+          exact
+          activeClass="menu-item--selected"
+          title="Tổng quan"
+        >
+          <misa-icon icon="sidebar__overview" />
+          <div class="sidebar__text">Cài đặt</div>
         </router-link>
       </div>
     </div>

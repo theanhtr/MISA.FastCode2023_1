@@ -10,6 +10,9 @@ const MISAResource = {
     TitleInvalidError: {
       Empty: "Tiêu đề không được phép để trống.",
     },
+    ContentInvalidError: {
+      Empty: "Tiêu đề không được phép để trống.",
+    },
     DepartmentInvalidError: {
       Empty: "Đơn vị không được phép để trống.",
       NotFound: "Dữ liệu <Đơn vị> không có trong danh mục.",

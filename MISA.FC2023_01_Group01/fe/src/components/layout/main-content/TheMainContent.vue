@@ -1,13 +1,6 @@
 <template>
   <div id="main-content">
-    <div class="header">
-      <misa-icon
-        icon="sidebar__control--grey"
-        tooltip="Thu gọn sidebar"
-        @click="collapseSidebar"
-        v-if="$store.state.isExpandSidebar"
-      ></misa-icon>
-    </div>
+    <div class="header"></div>
     <div class="page-content">
       <slot></slot>
     </div>

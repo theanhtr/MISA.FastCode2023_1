@@ -1,6 +1,6 @@
 :root {
   --border-color-default: #b1b2b3;
-  --border-radius-default: 2px;
+  --border-radius-default: 4px;
 
   /* theme green */
   --primary-color: #50b83c;
@@ -38,8 +38,8 @@
   /* default size */
   --btn-border-radius-default: 30px;
   --control-label-bottom-space: 2px;
-  --primary-button-height: 26px;
-  --rounded-button-height: 28px;
+  --primary-button-height: 36px;
+  --rounded-button-height: 38px;
   --get-data-button-height: 26px;
   --input-height: 26px;
   --combobox-multi-item-height: 22px;

@@ -377,6 +377,8 @@ export default {
         } else {
           return "transparent";
         }
+      } else if (this.type === "icon") {
+        return "#f0f0f0";
       } else {
         return "";
       }

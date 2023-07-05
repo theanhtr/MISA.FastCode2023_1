@@ -7,6 +7,9 @@ const MISAResource = {
     FullNameInvalidError: {
       Empty: "Tên không được phép để trống.",
     },
+    TitleInvalidError: {
+      Empty: "Tiêu đề không được phép để trống.",
+    },
     DepartmentInvalidError: {
       Empty: "Đơn vị không được phép để trống.",
       NotFound: "Dữ liệu <Đơn vị> không có trong danh mục.",
@@ -31,12 +34,12 @@ const MISAResource = {
       Get: "Lấy thông tin phòng ban bị lỗi.",
     },
 
-    EmployeeError: {
-      Get: "Lấy thông tin người dùng bị lỗi.",
+    QuestionError: {
+      Get: "Lấy thông tin câu hỏi bị lỗi.",
     },
-    AddEmployee: {
-      Success: "Nhân viên đã được thêm.",
-      Error: "Gặp lỗi khi thêm nhân viên.",
+    AddQuestion: {
+      Success: "Câu hỏi đã được thêm.",
+      Error: "Gặp lỗi khi thêm Câu hỏi.",
       SameCodeError: "đã tồn tại trong hệ thống, vui lòng kiểm tra lại.",
     },
     UpdateEmployee: {
@@ -57,6 +60,9 @@ const MISAResource = {
     },
     FullNameInvalidError: {
       Empty: "Name is not empty.",
+    },
+    TitleInvalidError: {
+      Empty: "Title is not empty.",
     },
     DepartmentInvalidError: {
       Empty: "Department is not empty.",
@@ -82,12 +88,12 @@ const MISAResource = {
       Get: "Get the department information is error.",
     },
 
-    EmployeeError: {
-      Get: "Get the employee information is error.",
+    QuestionError: {
+      Get: "Get the question information is error.",
     },
-    AddEmployee: {
-      Success: "Employee has been added.",
-      Error: "Error while adding employee.",
+    AddQuestion: {
+      Success: "question has been added.",
+      Error: "Error while adding question.",
       SameCodeError: "already exists in the system, please check again.",
     },
     UpdateEmployee: {

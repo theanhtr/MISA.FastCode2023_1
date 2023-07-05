@@ -16,6 +16,12 @@
   height: 12px;
 }
 
+.plus--large {
+  background-position: -704px -1152px;
+  width: 56px;
+  height: 56px;
+}
+
 .search {
   background-position: -425px -33px;
   width: 22px;
@@ -47,7 +53,7 @@
   height: 12px;
 }
 
-.arrow-left--grey {
+.arrow-left--gy {
   background-position: -36px -361px;
   width: 8px;
   height: 14px;

@@ -31,6 +31,12 @@ const MISAEnum = {
     BANK_INFO: 1,
     CONTACT_INFO: 2,
   },
+
+  SUBJECT: {
+    QUESTION: 1,
+    DISCUSS: 2,
+    SHARE: 3,
+  },
 };
 
 export default MISAEnum;
